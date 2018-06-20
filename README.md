@@ -11,9 +11,9 @@ This questions asks me to parse the input file and print key value pairs.
 
 To run this, go to root path of the project and type:
 
-mvn -e exec:java -Dexec.mainClass=arora.gurdeep.weightwatchers.Question1 -Dexec.args="data/sample.txt"
-This runs Question 1 and passes "sample.txt" as the input. You may also pass data/bad.txt for file with some badly
-formatted lines.
+**mvn package exec:java -Dexec.mainClass=arora.gurdeep.weightwatchers.Question1 -Dexec.args="data/sample.txt"**
+
+This first compiles and packages Question1 class and then runs Question1 and passes "sample.txt" file name under data directory as the input. You may also pass data/bad.txt to test a file with some badly formatted lines.
 
 
 #### Question 3 ####
@@ -21,8 +21,9 @@ This questions asks find 500 random numbers and print the "n"th.
 
 To run this, go to root path of the project and type:
 
-mvn -e exec:java -Dexec.mainClass=arora.gurdeep.weightwatchers.Question3 -Dexec.args="3"
-This will print all 500 random numbers and print the 3rd.
+**mvn package exec:java -Dexec.mainClass=arora.gurdeep.weightwatchers.Question3 -Dexec.args="3"**
+
+This will print all 500 random numbers and then print the 3rd largest amongst them.
 
 #### Question 2 (WebDriver Project)
 Pre-requisites : 
