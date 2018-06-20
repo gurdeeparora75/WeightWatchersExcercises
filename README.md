@@ -26,7 +26,7 @@ This will print all 500 random numbers and print the 3rd.
 
 #### Question 2 (WebDriver Project)
 Pre-requisites : 
-1. Java (JRE and JDK should be installed)
+1. Java (JRE and JDK should be installed and JAVA_HOME should be set.)
 2. Maven should be installed.
 3. This project runs ONLY on WINDOWS operating system.
 4. This project uses 3.x version of Selenium Webriver. So you need to have latest firefox version.
