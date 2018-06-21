@@ -9,7 +9,7 @@ So, you need to have either mvn, mvn2 or mvn3 binaries in your path, i.e., assum
 **This works on Windows, Linux or Mac OSes**
 This questions asks me to parse the input file and print key value pairs.
 
-To run this, go to root path of the project and type: (Ex. "C:\Users\gurde\Documents\WeightWatchersExcercises-master\mvn package exec:java -Dexec.mainClass=arora.gurdeep.weightwatchers.Question1 -Dexec.args="data/sample.txt")
+To run this, go to root path of the project and type below command: (Ex. "C:\Users\gurde\Documents\WeightWatchersExcercises-master\mvn package exec:java -Dexec.mainClass=arora.gurdeep.weightwatchers.Question1 -Dexec.args="data/sample.txt")
 
 **mvn package exec:java -Dexec.mainClass=arora.gurdeep.weightwatchers.Question1 -Dexec.args="data/sample.txt"**
 
@@ -20,7 +20,7 @@ This first compiles and packages Question1 class and then runs Question1 and pas
 **This works on Windows, Linux or Mac OSes**
 This questions asks find 500 random numbers and print the "n"th.
 
-To run this, go to root path of the project and type:(Ex. "C:\Users\gurde\Documents\WeightWatchersExcercises-master\mvn package exec:java -Dexec.mainClass=arora.gurdeep.weightwatchers.Question3 -Dexec.args="3")
+To run this, go to root path of the project and type below command:(Ex. "C:\Users\gurde\Documents\WeightWatchersExcercises-master\mvn package exec:java -Dexec.mainClass=arora.gurdeep.weightwatchers.Question3 -Dexec.args="3")
 
 **mvn package exec:java -Dexec.mainClass=arora.gurdeep.weightwatchers.Question3 -Dexec.args="3"**
 
@@ -34,5 +34,6 @@ Pre-requisites :
 3. This project uses 3.x version of Selenium Webriver. So you need to have latest firefox version.
 4. Browsers supported: Chrome and Firefox.
 
-To run this project do the following: (Ex. "C:\Users\gurde\Documents\WeightWatchersExcercisesmaster\WebdriverProject\arora.gurdeep.weightwatchers")
-Go to root path of project and type: **mvn test**
+To run this project do the following: 
+Go to root path of project and type below command : (Ex: "C:\Users\gurde\Documents\WeightWatchersExcercisesmaster\WebdriverProject\arora.gurdeep.weightwatchers")
+**mvn test**
