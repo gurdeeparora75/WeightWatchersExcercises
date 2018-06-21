@@ -36,4 +36,5 @@ Pre-requisites :
 
 To run this project do the following: 
 Go to root path of project and type below command : (Ex: "C:\Users\gurde\Documents\WeightWatchersExcercisesmaster\WebdriverProject\arora.gurdeep.weightwatchers")
+
 **mvn test**
