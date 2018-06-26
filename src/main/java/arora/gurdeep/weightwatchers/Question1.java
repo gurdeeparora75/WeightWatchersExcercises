@@ -32,7 +32,7 @@ public class Question1 {
             			String[] words = line.split(" – ");
             			String word = words[0];
             			System.out.println(word);
-            			String[] meanings = words[1].split(", ");
+            			String[] meanings = words[0].split(", ");
             			for (String meaning : meanings) {
             				System.out.println(meaning);
             			}
